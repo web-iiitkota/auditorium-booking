@@ -1,0 +1,156 @@
+
+
+
+
+
+
+
+
+body{
+  background-color: #19194D !important;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px;
+  max-width: 500px;
+  /* margin: 0 auto; */
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logoimg{
+    max-width: 60%;
+    height: auto;
+}
+
+/* General Styling */
+
+.register-login-main-container{
+  display: flex;
+  max-width: 50%;
+  margin: 12% auto;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  /* justify-content: center; */
+}
+
+
+.register-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px;
+  max-width: 500px;
+  /* margin: 0 auto; */
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.error-message, .success-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .register-container {
+    padding: 15px;
+  }
+
+  .input-field {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+/* dashboard css */
+
+/* Event Dates (Red Color) */
+.event-day {
+  background-color: red !important;
+  color: white !important;
+}
+
+/* Available Dates (Green Color) */
+.available-day {
+  background-color: green !important;
+  color: white !important;
+}
+
+/* Button for Booking Event */
+.book-event-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Button Hover Effect */
+.book-event-button:hover {
+  background-color: darkblue;
+}
+
