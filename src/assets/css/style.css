@@ -231,12 +231,12 @@
 @media (max-width: 768px) {
   .login-container {
     flex-direction: column;
-    width: 75%;
+    width: 50%;
     height: auto;
   }
 
   .logo-area, .form-area {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 20px;
   }
@@ -252,7 +252,7 @@
   }
 
   .logo-area img {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
   }
 }
